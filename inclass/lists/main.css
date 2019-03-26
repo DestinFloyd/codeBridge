@@ -1,0 +1,14 @@
+ol{
+    color: darkred;
+}
+li{
+    color: blue;
+    display: none;
+}
+ol:hover li{ 
+   display: block
+}
+
+ul:hover li{
+ display: block
+}

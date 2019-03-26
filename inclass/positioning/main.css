@@ -1,0 +1,36 @@
+.box{
+    border: solid;
+    width: 50vw;
+    height: 25vh;
+    position: absolute;
+    padding-top: 25px;
+    text-align: center;
+    /*  to use z- index you must give everything a position !(absolute, relative/static */
+/* with using z index you adjust the values of z index to bring things to the forefront */
+/* the hightest # is in the front */
+
+}
+#b1{
+background-color: silver;
+margin-top: 50px;
+z-index: 96;
+
+}
+#b2{
+background-color: purple;
+margin-top: 100px;
+z-index: 99;
+margin-left: 25px;
+}
+#b3{
+background-color: lightgreen;
+margin-top: 150px;
+z-index: 101;
+margin-left:50px;
+}
+#b4{
+background-color: darkgreen;
+margin-top: 200px;
+z-index: 102;
+margin-left: 75px;
+}

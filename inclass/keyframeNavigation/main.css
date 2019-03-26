@@ -1,0 +1,68 @@
+/* .navContainer{
+border: solid;
+width: 100vw;
+height: 30vh;
+display: flex;
+justify-content: space-between;
+animation: moveName 3s infinite;
+}
+/* .navContainer:hover{
+    background-color: cyan;
+} */
+/* .navItems{
+    width: 100px;
+    border: solid blue;
+
+}
+
+@keyframes moveName{
+0%{
+  
+    width: 50vw;
+
+}
+50%{
+    width: 100vw;
+   
+}
+100%{ 
+width: 50vw;
+margin-left: 200px;
+}}
+  */
+
+.box{
+    height: 300px; 
+    width: 300px;
+    border: solid;
+    animation: slideshow 8s infinite;
+
+}
+@keyframes slideshow{
+0%{
+background: url("images/1.png");
+background-size: contain;
+}
+20%{
+background:url("images/2.png");
+background-size: contain;
+}
+40%{
+background:url("images/3.png");
+background-size: contain;
+}
+60%{
+background:url("images/4.png");
+background-size: contain;
+}
+80%{
+    background:url("images/5.png");
+    background-size: contain;    
+}
+100%{
+    background:url("images/6.png");
+    background-size: contain;
+}
+}
+
+

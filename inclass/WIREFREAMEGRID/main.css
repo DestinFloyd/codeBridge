@@ -1,0 +1,63 @@
+.container{
+    display: grid;
+    height: 800px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas: 
+    'hd nav link aboutUs'
+    "link aboutUs aboutUs link";
+ }
+
+/* .hd{
+    grid-area: hd;
+    background: red;
+}
+.nav{
+    grid-area: nav;
+    background:blue;
+}
+.link{
+    grid-area: link;
+    background:green;
+}
+.aboutUs{
+    grid-area: aboutUs;
+    background:pink;
+} */
+/* and so on and so forth, i think you get it. when you set these
+up they need do be set up in a way that nothing will bleed into an area where it doesnt
+go. so when you do it make sure the div you are building
+fits into the area that you are trying to create.
+if the div is too big or too small it will have bleed over
+
+
+have fun in class <3*/
+.two{}
+.three{}
+/* 
+.four{}
+.five{}
+.six{}
+.contacts{}
+.directions{}
+.hd{}
+.nav{}
+
+
+'hd hd hd hd'
+    'hd hd hd hd'
+    'nav nav nav nav'
+    'link aboutUs aboutUs link'
+    'link aboutUs aboutUs link'
+    'link aboutUs aboutUs link'
+    'one two four six'
+    'one three five six'
+     'contact contact directions directions'
+    'contact contact directions directions';  */
+
+
+
+
+

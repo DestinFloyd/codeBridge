@@ -1,0 +1,35 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    animation: move 5s forwards;
+    animation-iteration-count: infinite;
+
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: flex-end; */
+   
+ } 
+ 
+ /* / *to start call on act keyframes*/
+ /* / *name out keyfream move*/ 
+ /*defined what our keyfram will do*/
+ /*call on the animation property*/
+
+
+ /* @keyframes move {
+    0%{
+        margin:0px;
+    }
+    40% {
+        margin-top:30px;
+        background:
+    }
+    100%{
+        margin-left:500px;
+        background-color: deeppink;
+    }
+ } 
+
+/* CSS Variables */
+/* Use this to set primary color scheme */

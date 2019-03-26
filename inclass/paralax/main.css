@@ -1,0 +1,22 @@
+h1{
+font-size: 30px;
+color: blue;
+text-align: center;
+margin: 200px;
+}
+h2{
+font-size: 30px;
+color: lightblue;
+text-align: center;
+
+}
+/* going to call the parent div which  */
+.para{
+    background: url("images/PS4-2.jpeg") fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.parainner{
+    padding: 300px;
+}

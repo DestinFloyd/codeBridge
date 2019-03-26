@@ -1,0 +1,35 @@
+body{
+    justify-content: center;
+    display: flex;
+}
+form{
+    height: 75vh;
+    width: 50vw;
+    border: solid;
+    justify-content: center;
+    text-align: center
+}
+form{
+    background-color: indigo;
+}
+
+li{
+    color: silver;
+    height: 5vh;
+    width: 50vw;
+    list-style: none;
+    display: flex;
+    text-align: center;
+
+}
+input{
+    text-align: center;
+    margin: 1%;
+}
+
+
+h3{ 
+    font-size: x-large;
+   
+    
+}

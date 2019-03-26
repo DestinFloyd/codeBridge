@@ -1,0 +1,55 @@
+/* .child{
+    border: solid;
+}
+.container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+border: solid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+
+/*  were using grid template areas in a 3x4- open qoutes and define 
+grid-template-areas: "header header header"
+                    "nav blog blog"
+                    "nav blog blog"
+                    "foot foot foot"
+}
+
+.header{
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+.blog{
+    grid-area: blog;
+}
+.foot{
+    grid-area: foot;
+} */
+
+
+  .container{
+     display: grid;
+    width: 100vw;
+    height: 100vh;
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(10, 1fr);
+     grid-template-areas:  "hd hd hd hd"
+                             "hd hd hd hd"
+                             "nav nav nav nav"
+                             "link aboutUs aboutUs link"
+                             "link aboutUs aboutUs link"
+                             "link aboutUs aboutUs link"
+                             "one two four six"
+                             "one three five six"
+                             "contact contact directions directions"
+                             "contact contact directions directions"
+
+  }
+
+.three{
+    grid-area: three;
+}

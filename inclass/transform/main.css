@@ -1,0 +1,44 @@
+.box{
+height: 200px;
+width: 100px; 
+background: red;
+/* transform:translate(50px,100px);
+animation: frame 2s infinite;
+}
+
+@keyframes frame{
+0%{
+
+}
+100%{
+    /* transform: translate(300px,100px); */
+/* spot 1 is x axis and spot 2 is y axis */
+
+/* transform: rotate(360deg); */
+/* rotate works on degrees */
+
+/* two at a time */
+/* transform: translate(300px,100px) rotate(360deg); */
+
+/* transform: scale(2);
+scale is size changer (multiplied by this #) */
+
+/* transform: skew(50deg,50deg); */
+/* skey skews the elements between  */
+/* x and y axis and you can do only one number if you want */
+
+/* martix? 
+
+
+transition timing function, transition delay, timing end, 
+}
+
+
+} */
+/* background: linear-gradient(white, blue, black);
+display: flex;
+align-items: center;
+font-size: 5em;
+color: white;
+text-shadow: 2px 2px black;
+justify-content: center; */

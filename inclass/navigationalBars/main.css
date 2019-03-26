@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+list-style:none;
+}
+li{
+display: none;
+}
+ul:hover li{
+    display: block;
+}

@@ -1,0 +1,32 @@
+
+.bob{
+color: red;
+
+}
+.sam{
+    color: chartreuse;
+
+}
+#sally{ 
+    color: blue;
+}
+#craig{ 
+    color: blueviolet;
+}
+h1{
+    font-display: center;
+    font-stretch: ultra-condensed
+}
+.groupA{
+    color: orangered;
+
+}
+#smile{
+    color: lightgreen;
+    font-style: italic;
+}
+#alpha{
+    color: forestgreen;
+    font-weight: bolder
+    font-size: 20%;
+}
